@@ -1,0 +1,27 @@
+name = "mD pabel   "
+
+print(len(name))
+print(name[0])
+print(name[0:2])
+print(name[:4])
+print(name[0:])
+print(name[:])
+print(name[-1])
+
+print(name.upper())
+print(name.lower())
+print(name.title())
+print(name.find('Pa'))
+print(name.capitalize())
+print(name.center(20))
+print(name.endswith('el'))
+print(name.index("pa"))
+
+print("1".isdigit())
+print("V".islower())
+print("+".join(name))
+print(name.partition(" "))
+print(name.replace("m", "M"))
+print(name.split(" "))
+print(name.strip())
+print(name.swapcase())
